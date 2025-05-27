@@ -1,0 +1,9 @@
+Section,Key,Value
+Stats,Hunger,50
+Stats,Sleepiness,10
+Stats,Happiness,100
+Stats,Health,90
+Inventory,Cookie,2
+Inventory,Apple,5
+Settings,TimePlayed,20
+Settings,TimeLimit,60

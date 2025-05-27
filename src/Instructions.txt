@@ -1,0 +1,64 @@
+Timeless Tails Instructions
+
+Objective: ---------------------------------------------------------------------------------- 
+The objective of our specific game is to create an experience for users to learn about simple life skills and routine management. 
+Through an interactive and engaging pet simulator with mouse based interaction, users must take care of a pet of their choice and maintain the pet’s health stats. 
+There will be various activities that contribute to either increasing or decreasing the stats, such as...
+    1. Health: Represents how healthy the pet currently is. A zero value is dead, a maximum value is perfectly healthy. If health reaches zero, the pet dies, and the game ends. If below 25%, a warning appears. Can be raised by taking the pet to the pokemon center
+    2. Sleep:Represents how tired the pet is. A low value is very sleepy, and a high value is perfectly awake. Declines over time at a set rate (rate differs per pet). When at zero, the pet forcibly falls asleep, applies a health penalty, and cannot be interacted with until it recovers. If below 25%, a warning appears. Can be increased by clicking the sleep button. 
+    3. Fullness: Represents how hungry the pet is. A low value is very hungry, and a high value is perfectly full. This value declines overtime at a set rate. If below 25%, a warning appears. Pets can eat different foods to increase this stat.
+    4. Happiness: Represents how happy the pet is with the player. A low value is angry, and a high value is very happy. Declines naturally over time at a steady rate. If a player reaches 0% in this statistic, they become really angry and don’t listen to any commands unless they are related to increasing their happiness. If below 25%, a warning appears.Can be increased by playing the obstacle dodge mini game, sleeping, and eating. 
+
+Tutorial: ------------------------------------------------------------------------------------
+Player navigates through game with mouse interactions with various buttons. 
+There are also keyboard shortcuts that for quick execution of actions:
+    - Ctr + i       opens the inventory
+    - Ctr + q       opens the settings
+    - esc           quits the game
+    - Ctr + p       executes the pet play action that directs user to the minigame
+    - Ctr + v       executes the take pet to vet action
+    - Ctr + e       executes the take pet to excercise action
+    - Ctr + z       executes the sleep pet action
+
+From the Main Menu, the player can choose to start a new game, continue saved game, or go to settings. 
+    Player can select a save file when they choose to continue saved game. 
+
+The settings includes buttons to navigate to parental controls screen, instructions file, save game action, and return to main menu.
+    The parental controls screen is password protected. If its the first time that a parent is accessing the parental controls, they will have to create a password. 
+    Parents have ability to set certain times of the day to allow the user to play, which can be enabled or disabled. 
+    Parents can view statistics of total play time and average play time per gamming session. This can be reset by the parent if needed.
+    Parents can select a save file to revive a pet to normal state with maximum statistics. 
+
+    Instructions button will display a popup of a text file with description of the game.
+
+    Save game button allows player to save the game.
+
+    Main menu button returns to the main menu screen.
+
+Once a save file is selected, the game begins and directs player to the pet screen that displays various statistics and buttons. 
+Player can execute various actions using the mouse or keyboard shortcuts such as ... 
+    - Go to bed makes the pet enter a sleeping state until the sleep stat is full
+    - Give gift // feed food // open inventory directs the player to the inventory where they can select an item to use on the pet
+    - Take to vet action displays a message about the vet and increases pet health by 20
+    - Play opens the minigame where player must dodge falling obstacles with their pet using arrow keys on the keyboard
+    - Excercise actions displays a short animation of the pet moving around and increases health by 25, decreases sleep by 10, and decreases fullness by 10 
+
+Based on pets current stats, then its state will change and limit available commands
+    - Dead state: no commands
+    - Sleeping state: no commands: 
+    - Angry state: Give gift and play
+    - Hungry state: all commands
+    - Normal state: all commands
+
+Score is also kept throughout the game. 
+- Score starts at 0
+- Score increases by 100 when user performs any action 
+- Score increases by 150 when user wins the minigame through the play action
+- Score does not decrease 
+
+
+
+
+
+
+

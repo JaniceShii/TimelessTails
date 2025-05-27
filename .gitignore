@@ -1,0 +1,49 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Build output directories
+/bin/
+/build/
+/target/
+out/
+
+# Maven and Gradle directories
+.mvn/
+.gradle/
+gradle/
+target/
+build/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Dependency caches
+node_modules/
+.m2/
+.gradle/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment and secret files
+.env
+*.keystore
+
+# (Optional) Ignore user-generated save files
+saves/
